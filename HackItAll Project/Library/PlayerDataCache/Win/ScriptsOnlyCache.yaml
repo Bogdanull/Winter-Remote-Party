@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp-firstpass.dll:
     - Dissonance.Audio.Playback.SamplePlaybackComponent
     - Dissonance.Audio.Playback.VoicePlayback
+    - Dissonance.Config.ChatRoomSettings
     - Dissonance.Config.VoiceSettings
     - Dissonance.Demo.ChatInputController
     - Dissonance.Demo.ChatLogController
@@ -18,7 +19,6 @@ ScriptsOnlyBuild:
     - Dissonance.Integrations.MirrorIgnorance.Demo.MirrorIgnorancePlayerController
     - Dissonance.Integrations.MirrorIgnorance.MirrorIgnoranceCommsNetwork
     - Dissonance.Integrations.MirrorIgnorance.MirrorIgnorancePlayer
-    - NameSet
     Cinemachine.dll:
     - Cinemachine.CinemachineBrain
     Mirror.Components.dll:
@@ -51,6 +51,7 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
@@ -84,16 +85,24 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 82
       Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11864}
     - Class: 114
       Script: {instanceID: 11866}
     - Class: 114
       Script: {instanceID: 11868}
     - Class: 114
       Script: {instanceID: 11898}
+    - Class: 114
+      Script: {instanceID: 11902}
     - Class: 114
       Script: {instanceID: 11978}
     - Class: 114
@@ -107,9 +116,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13136}
     - Class: 114
-      Script: {instanceID: 13632}
+      Script: {instanceID: 13310}
     - Class: 114
-      Script: {instanceID: 13660}
+      Script: {instanceID: 13632}
     - Class: 114
       Script: {instanceID: 13696}
     - Class: 114
@@ -122,6 +131,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 15252}
     - Class: 114
       Script: {instanceID: 15376}
+    - Class: 114
+      Script: {instanceID: 15526}
     - Class: 114
       Script: {instanceID: 15638}
     - Class: 114
@@ -146,9 +157,13 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
+    - Class: 212
+      Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
     - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
@@ -180,6 +195,10 @@ ScriptsOnlyBuild:
     - Class: 65
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 102
       Script: {instanceID: 0}
@@ -229,9 +248,13 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 205
       Script: {instanceID: 0}
     - Class: 212
       Script: {instanceID: 0}
@@ -1240,7 +1263,7 @@ ScriptsOnlyBuild:
     className: ChatInputController
   - hash:
       serializedVersion: 2
-      Hash: d88a59ee343c279d4b2e7c157e49106e
+      Hash: 9f38c1dcd52d4f2be5b5e16d15f21989
     assemblyName: Assembly-CSharp.dll
     namespaceName: Dissonance.Integrations.MirrorIgnorance.Demo
     className: MirrorIgnorancePlayerController

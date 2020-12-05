@@ -57,16 +57,19 @@
   <ItemGroup>
     <Compile Include="Assets\CreateNames.cs" />
     <Compile Include="Assets\Dissonance\Integrations\MirrorIgnorance\MirrorIgnorancePlayer.cs" />
+    <Compile Include="Assets\NameSet.cs" />
     <Compile Include="Assets\Dissonance\Integrations\MirrorIgnorance\MirrorIgnoranceCommsNetwork.cs" />
     <Compile Include="Assets\Dissonance\Integrations\MirrorIgnorance\MirrorIgnoranceServer.cs" />
     <Compile Include="Assets\Dissonance\Core\Jetbrains.cs" />
     <Compile Include="Assets\Dissonance\Integrations\MirrorIgnorance\Demo\MirrorIgnorancePlayerController.cs" />
     <Compile Include="Assets\Dissonance\Integrations\MirrorIgnorance\MirrorIgnoranceClient.cs" />
-    <Compile Include="Assets\NameSet.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.dll" />
+     <None Include="Assets\VertexColorCoffeeProps\Assets\Shaders\UnlitVertexColor.shader" />
+     <None Include="Assets\VertexColorCoffeeProps\Assets\Shaders\StandardLightingVertexColor.shader" />
      <None Include="Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Mdb.dll" />
+     <None Include="Assets\LowPolyOfficeProps_LITE\About.txt" />
      <None Include="Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.Pdb.dll" />
      <None Include="Assets\Dissonance\changelog.txt" />
      <None Include="Assets\Dissonance\Integrations\MirrorIgnorance\Demo\README.txt" />
@@ -76,6 +79,8 @@
      <None Include="Assets\Dissonance\Readme.txt" />
      <None Include="Assets\Mirror\Notice.txt" />
      <None Include="Assets\Mirror\Plugins\Mono.Cecil\License.txt" />
+     <None Include="Assets\VertexColorCoffeeProps\Assets\Shaders\RimLightTransparent.shader" />
+     <None Include="Assets\VertexColorCoffeeProps\Documentation.txt" />
      <None Include="Assets\unity3d.txt" />
      <None Include="Assets\Dissonance\Integrations\MirrorIgnorance\README.txt" />
     <Reference Include="UnityEngine">
