@@ -63,6 +63,7 @@
     <Compile Include="Assets\Dissonance\Core\Jetbrains.cs" />
     <Compile Include="Assets\Dissonance\Integrations\MirrorIgnorance\Demo\MirrorIgnorancePlayerController.cs" />
     <Compile Include="Assets\Dissonance\Integrations\MirrorIgnorance\MirrorIgnoranceClient.cs" />
+    <Compile Include="Assets\ActivatePrompt.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Mirror\Plugins\Mono.Cecil\Mono.CecilX.dll" />

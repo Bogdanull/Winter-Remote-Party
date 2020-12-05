@@ -1,5 +1,6 @@
 sceneSetups:
-- path: Assets/Dissonance/Integrations/MirrorIgnorance/Demo/MirrorIgnorance Demo.unity
+- path: Assets/Dissonance/Integrations/MirrorIgnorance/Demo/MirrorIgnorance Game
+    World.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

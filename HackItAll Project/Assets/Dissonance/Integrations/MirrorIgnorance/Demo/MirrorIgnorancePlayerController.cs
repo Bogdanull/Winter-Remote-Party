@@ -28,6 +28,8 @@ namespace Dissonance.Integrations.MirrorIgnorance.Demo
         public InputField input;
         public GameObject inputGO;
 
+        bool ableToGo = false;
+
 
         public void Start()
         {
@@ -54,6 +56,12 @@ namespace Dissonance.Integrations.MirrorIgnorance.Demo
             {
                 return;
             }
+
+            if (ableToGo && Input.GetKeyDown(KeyCode.E))
+            {
+                Application.OpenURL("http://dominion.games");
+                ableToGo = false;
+            } 
 
             Camera main = GameObject.Find("Main Camera").GetComponent<Camera>();
 
@@ -91,10 +99,32 @@ namespace Dissonance.Integrations.MirrorIgnorance.Demo
             }
 
             var rotation = Input.GetAxis("Horizontal") * Time.deltaTime * 175;
-            var speed = Input.GetAxis("Vertical") * 6;
+            var speed = Input.GetAxis("Vertical") * 8;
 
             CmdMove(rotation, speed);
         }
+
+        [Client]
+        public void setAble(bool x)
+        {
+            if (isLocalPlayer)
+            {
+                CmdSetAble(x);
+            }
+        }
+
+        [Command]
+        private void CmdSetAble(bool x)
+        {
+            RpcSetAble(x);
+        }
+
+        [ClientRpc]
+        private void RpcSetAble(bool x)
+        {
+            ableToGo = x;
+        }
+
 
         [Client]
         public void SetString()

@@ -15,6 +15,7 @@ ScriptsOnlyBuild:
     - Dissonance.VoiceBroadcastTrigger
     - Dissonance.VoiceReceiptTrigger
     Assembly-CSharp.dll:
+    - ActivatePrompt
     - CreateNames
     - Dissonance.Integrations.MirrorIgnorance.Demo.MirrorIgnorancePlayerController
     - Dissonance.Integrations.MirrorIgnorance.MirrorIgnoranceCommsNetwork
@@ -94,53 +95,53 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11864}
+      Script: {instanceID: 11870}
     - Class: 114
-      Script: {instanceID: 11866}
+      Script: {instanceID: 11872}
     - Class: 114
-      Script: {instanceID: 11868}
+      Script: {instanceID: 11874}
     - Class: 114
-      Script: {instanceID: 11898}
+      Script: {instanceID: 11904}
     - Class: 114
-      Script: {instanceID: 11902}
+      Script: {instanceID: 11908}
     - Class: 114
-      Script: {instanceID: 11978}
+      Script: {instanceID: 11984}
     - Class: 114
-      Script: {instanceID: 12034}
+      Script: {instanceID: 12040}
     - Class: 114
-      Script: {instanceID: 12298}
+      Script: {instanceID: 12304}
     - Class: 114
-      Script: {instanceID: 12326}
+      Script: {instanceID: 12332}
     - Class: 114
-      Script: {instanceID: 12404}
+      Script: {instanceID: 12410}
     - Class: 114
-      Script: {instanceID: 13136}
+      Script: {instanceID: 13142}
     - Class: 114
-      Script: {instanceID: 13310}
+      Script: {instanceID: 13316}
     - Class: 114
-      Script: {instanceID: 13632}
+      Script: {instanceID: 13638}
     - Class: 114
-      Script: {instanceID: 13696}
+      Script: {instanceID: 13702}
     - Class: 114
-      Script: {instanceID: 13774}
+      Script: {instanceID: 13780}
     - Class: 114
-      Script: {instanceID: 14328}
+      Script: {instanceID: 14334}
     - Class: 114
-      Script: {instanceID: 15250}
+      Script: {instanceID: 15256}
     - Class: 114
-      Script: {instanceID: 15252}
+      Script: {instanceID: 15258}
     - Class: 114
-      Script: {instanceID: 15376}
+      Script: {instanceID: 15382}
     - Class: 114
-      Script: {instanceID: 15526}
+      Script: {instanceID: 15532}
     - Class: 114
-      Script: {instanceID: 15638}
+      Script: {instanceID: 15644}
     - Class: 114
-      Script: {instanceID: 15754}
+      Script: {instanceID: 15760}
     - Class: 114
-      Script: {instanceID: 15982}
+      Script: {instanceID: 15988}
     - Class: 114
-      Script: {instanceID: 16322}
+      Script: {instanceID: 16328}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -207,41 +208,43 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11868}
+      Script: {instanceID: 11874}
     - Class: 114
-      Script: {instanceID: 11902}
+      Script: {instanceID: 11908}
     - Class: 114
-      Script: {instanceID: 12196}
+      Script: {instanceID: 12202}
     - Class: 114
-      Script: {instanceID: 12326}
+      Script: {instanceID: 12332}
     - Class: 114
-      Script: {instanceID: 12328}
+      Script: {instanceID: 12334}
     - Class: 114
-      Script: {instanceID: 12404}
+      Script: {instanceID: 12410}
     - Class: 114
-      Script: {instanceID: 12438}
+      Script: {instanceID: 12444}
     - Class: 114
-      Script: {instanceID: 13136}
+      Script: {instanceID: 13142}
     - Class: 114
-      Script: {instanceID: 13330}
+      Script: {instanceID: 13336}
     - Class: 114
-      Script: {instanceID: 13926}
+      Script: {instanceID: 13932}
     - Class: 114
-      Script: {instanceID: 14016}
+      Script: {instanceID: 14022}
     - Class: 114
-      Script: {instanceID: 14048}
+      Script: {instanceID: 14054}
     - Class: 114
-      Script: {instanceID: 15250}
+      Script: {instanceID: 15256}
     - Class: 114
-      Script: {instanceID: 15376}
+      Script: {instanceID: 15382}
     - Class: 114
-      Script: {instanceID: 15526}
+      Script: {instanceID: 15532}
     - Class: 114
-      Script: {instanceID: 15754}
+      Script: {instanceID: 15760}
     - Class: 114
-      Script: {instanceID: 16402}
+      Script: {instanceID: 16408}
     - Class: 114
-      Script: {instanceID: 16434}
+      Script: {instanceID: 16440}
+    - Class: 114
+      Script: {instanceID: 46720}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -1263,7 +1266,7 @@ ScriptsOnlyBuild:
     className: ChatInputController
   - hash:
       serializedVersion: 2
-      Hash: 9f38c1dcd52d4f2be5b5e16d15f21989
+      Hash: 1fc193bfa23fb19fa1f34ca7673404af
     assemblyName: Assembly-CSharp.dll
     namespaceName: Dissonance.Integrations.MirrorIgnorance.Demo
     className: MirrorIgnorancePlayerController
@@ -1639,6 +1642,12 @@ ScriptsOnlyBuild:
     assemblyName: Mirror.dll
     namespaceName: kcp2k
     className: KcpTransport
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ActivatePrompt
   platform: 5
   scenePathNames:
   - Assets/Dissonance/Integrations/MirrorIgnorance/Demo/MirrorIgnorance Demo.unity
