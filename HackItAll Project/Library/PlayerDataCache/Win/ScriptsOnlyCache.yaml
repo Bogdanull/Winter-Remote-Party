@@ -85,43 +85,43 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11836}
+      Script: {instanceID: 11864}
     - Class: 114
-      Script: {instanceID: 11944}
+      Script: {instanceID: 11866}
     - Class: 114
-      Script: {instanceID: 12180}
+      Script: {instanceID: 11896}
     - Class: 114
-      Script: {instanceID: 12202}
+      Script: {instanceID: 11970}
     - Class: 114
-      Script: {instanceID: 12258}
+      Script: {instanceID: 12020}
     - Class: 114
-      Script: {instanceID: 12494}
+      Script: {instanceID: 12274}
     - Class: 114
-      Script: {instanceID: 14266}
+      Script: {instanceID: 12300}
     - Class: 114
-      Script: {instanceID: 14922}
+      Script: {instanceID: 12366}
     - Class: 114
-      Script: {instanceID: 15218}
+      Script: {instanceID: 13064}
     - Class: 114
-      Script: {instanceID: 20302}
+      Script: {instanceID: 13534}
     - Class: 114
-      Script: {instanceID: 20396}
+      Script: {instanceID: 13596}
     - Class: 114
-      Script: {instanceID: 20458}
+      Script: {instanceID: 13674}
     - Class: 114
-      Script: {instanceID: 20472}
+      Script: {instanceID: 14176}
     - Class: 114
-      Script: {instanceID: 20512}
+      Script: {instanceID: 15018}
     - Class: 114
-      Script: {instanceID: 20590}
+      Script: {instanceID: 15020}
     - Class: 114
-      Script: {instanceID: 20602}
+      Script: {instanceID: 15126}
     - Class: 114
-      Script: {instanceID: 20638}
+      Script: {instanceID: 15372}
     - Class: 114
-      Script: {instanceID: 21356}
+      Script: {instanceID: 15480}
     - Class: 114
-      Script: {instanceID: 21362}
+      Script: {instanceID: 15700}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -180,39 +180,39 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11840}
+      Script: {instanceID: 11866}
     - Class: 114
-      Script: {instanceID: 12202}
+      Script: {instanceID: 11900}
     - Class: 114
-      Script: {instanceID: 12258}
+      Script: {instanceID: 12178}
     - Class: 114
-      Script: {instanceID: 13046}
+      Script: {instanceID: 12300}
     - Class: 114
-      Script: {instanceID: 14266}
+      Script: {instanceID: 12366}
     - Class: 114
-      Script: {instanceID: 14826}
+      Script: {instanceID: 12400}
     - Class: 114
-      Script: {instanceID: 15574}
+      Script: {instanceID: 13064}
     - Class: 114
-      Script: {instanceID: 15598}
+      Script: {instanceID: 13248}
     - Class: 114
-      Script: {instanceID: 20316}
+      Script: {instanceID: 13814}
     - Class: 114
-      Script: {instanceID: 20336}
+      Script: {instanceID: 13898}
     - Class: 114
-      Script: {instanceID: 20396}
+      Script: {instanceID: 13926}
     - Class: 114
-      Script: {instanceID: 20486}
+      Script: {instanceID: 15018}
     - Class: 114
-      Script: {instanceID: 20498}
+      Script: {instanceID: 15126}
     - Class: 114
-      Script: {instanceID: 20590}
+      Script: {instanceID: 15268}
     - Class: 114
-      Script: {instanceID: 20602}
+      Script: {instanceID: 15480}
     - Class: 114
-      Script: {instanceID: 20638}
+      Script: {instanceID: 16108}
     - Class: 114
-      Script: {instanceID: 21358}
+      Script: {instanceID: 16136}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -244,6 +244,18 @@ ScriptsOnlyBuild:
     className: Button
   - hash:
       serializedVersion: 2
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: f7bb6096199e0cf058d5d69878184cf4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
       Hash: 016664814c823cfc5ac199e835dc335b
     assemblyName: Mirror.dll
     namespaceName: Mirror
@@ -260,6 +272,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Dissonance.Audio.Playback
+    className: VoicePlayback
   - hash:
       serializedVersion: 2
       Hash: 87ff43d2baf3385cba327d8f803a4ebb
@@ -302,6 +320,12 @@ ScriptsOnlyBuild:
     assemblyName: Mirror.Components.dll
     namespaceName: Mirror.Experimental
     className: NetworkTransform
+  - hash:
+      serializedVersion: 2
+      Hash: 69532fe5d70c45d8bc49c9ea816cb6cc
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Dissonance
+    className: DissonanceComms
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -382,10 +406,22 @@ ScriptsOnlyBuild:
     className: TestResultRendererCallback
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Dissonance.Demo
+    className: Logo
+  - hash:
+      serializedVersion: 2
       Hash: 8338de6b06b40948f56a724decde07d8
     assemblyName: Unity.2D.SpriteShape.Runtime.dll
     namespaceName: UnityEngine.U2D
     className: SpriteShapeController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Dissonance.Audio.Capture
+    className: BasicMicrophoneCapture
   - hash:
       serializedVersion: 2
       Hash: 5f206dd3b0d6b103c9456019be49d644
@@ -452,12 +488,6 @@ ScriptsOnlyBuild:
     assemblyName: Mirror.Cloud.dll
     namespaceName: Mirror.Cloud
     className: ApiConnector
-  - hash:
-      serializedVersion: 2
-      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: LayoutElement
   - hash:
       serializedVersion: 2
       Hash: 18c222bef9ae745ce69ddde9b74337ca
@@ -556,6 +586,12 @@ ScriptsOnlyBuild:
     className: MultiplexTransport
   - hash:
       serializedVersion: 2
+      Hash: 3fdb6824d947de2038a56148cd6a5e1a
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Dissonance.Demo
+    className: TriggerVisualizer
+  - hash:
+      serializedVersion: 2
       Hash: caa533b001ae39b864ba8425019e2268
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -572,6 +608,12 @@ ScriptsOnlyBuild:
     assemblyName: Mirror.Examples.dll
     namespaceName: Mirror.Examples.Benchmark
     className: BenchmarkNetworkManager
+  - hash:
+      serializedVersion: 2
+      Hash: fa3dee828bd27ded447e0fdc79b4320a
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Dissonance.Config
+    className: ChatRoomSettings
   - hash:
       serializedVersion: 2
       Hash: d4a0f162fb9f35fcefae9e327cfb3d35
@@ -652,10 +694,28 @@ ScriptsOnlyBuild:
     className: Tank
   - hash:
       serializedVersion: 2
+      Hash: 6fd2bb55b3ee5edb6040a1c5bccd0e07
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Dissonance.Integrations.MirrorIgnorance
+    className: MirrorIgnorancePlayer
+  - hash:
+      serializedVersion: 2
       Hash: 9b01b1d80bd3ecf4eaca45e1a22d444e
     assemblyName: Mirror.Components.dll
     namespaceName: Mirror.Experimental
     className: NetworkRigidbody
+  - hash:
+      serializedVersion: 2
+      Hash: 371b831d416d0e5b9ad48ef7608b6f1d
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Dissonance.Config
+    className: VoiceSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Dissonance.Demo
+    className: SpeakerIndicator
   - hash:
       serializedVersion: 2
       Hash: 16a720ee1ef3f470f479041a1e75bdc1
@@ -676,16 +736,34 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
+      Hash: 4860cc13f7537ba3fd010c32bb59e655
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Dissonance.Demo
+    className: ToggleInvertMute
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.2D.Animation.Runtime.dll
     namespaceName: UnityEngine.U2D.Animation
     className: SpriteSkinEntity
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Dissonance.Integrations.MirrorIgnorance
+    className: MirrorIgnoranceCommsNetwork
+  - hash:
+      serializedVersion: 2
       Hash: b5cdb5258d55ddfa2beedfa44db3e720
     assemblyName: Mirror.Authenticators.dll
     namespaceName: Mirror.Authenticators
     className: BasicAuthenticator
+  - hash:
+      serializedVersion: 2
+      Hash: 58ec2f0e5de3679a63cfe0fe6d6fc96d
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Dissonance
+    className: VoiceReceiptTrigger
   - hash:
       serializedVersion: 2
       Hash: 220bd265f54cc4cee8f1539ad2b2c64a
@@ -740,6 +818,12 @@ ScriptsOnlyBuild:
     assemblyName: Mirror.Examples.dll
     namespaceName: Mirror.Examples.NetworkRoom
     className: PlayerController
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Dissonance.Audio.Playback
+    className: SamplePlaybackComponent
   - hash:
       serializedVersion: 2
       Hash: 4fd8bf02e3089425d3502e26c44ba31a
@@ -824,12 +908,6 @@ ScriptsOnlyBuild:
     assemblyName: Mirror.Examples.dll
     namespaceName: Mirror.Examples.Additive
     className: AdditiveNetworkManager
-  - hash:
-      serializedVersion: 2
-      Hash: f7bb6096199e0cf058d5d69878184cf4
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: InputField
   - hash:
       serializedVersion: 2
       Hash: 908b3077da284d11de0450423ca1808e
@@ -922,6 +1000,24 @@ ScriptsOnlyBuild:
     className: ServerListUIItem
   - hash:
       serializedVersion: 2
+      Hash: 2d3d9987d3b628f4cceab92fc062a82a
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Dissonance.Config
+    className: DebugSettings
+  - hash:
+      serializedVersion: 2
+      Hash: d5c0acc8cad1b062bea3f2c3e0a2f11b
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Dissonance.Demo
+    className: ChatInputController
+  - hash:
+      serializedVersion: 2
+      Hash: 6fd2bb55b3ee5edb6040a1c5bccd0e07
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Dissonance.Integrations.MirrorIgnorance.Demo
+    className: MirrorIgnorancePlayerController
+  - hash:
+      serializedVersion: 2
       Hash: 1088b99d0c88ca05dcb48022854c0cd7
     assemblyName: Mirror.Examples.dll
     namespaceName: Mirror.Examples.Pong
@@ -932,6 +1028,12 @@ ScriptsOnlyBuild:
     assemblyName: Mirror.dll
     namespaceName: Mirror
     className: FallbackTransport
+  - hash:
+      serializedVersion: 2
+      Hash: b942525e6a7088bd9755b40c55723704
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Dissonance
+    className: VoiceBroadcastTrigger
   - hash:
       serializedVersion: 2
       Hash: 760787567e1b60d64a3e421ab83ee14a
@@ -992,6 +1094,12 @@ ScriptsOnlyBuild:
     assemblyName: Mirror.Examples.dll
     namespaceName: Mirror.Examples.MultipleAdditiveScenes
     className: PhysicsSimulator
+  - hash:
+      serializedVersion: 2
+      Hash: 224ee637b7a30c263fec4a5b2f85db84
+    assemblyName: Assembly-CSharp-firstpass.dll
+    namespaceName: Dissonance.Demo
+    className: ChatLogController
   - hash:
       serializedVersion: 2
       Hash: 681b5f9be6f57e5a7b20908e503986d3
@@ -1196,114 +1304,6 @@ ScriptsOnlyBuild:
     assemblyName: Mirror.dll
     namespaceName: kcp2k
     className: KcpTransport
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: Dissonance.Audio.Playback
-    className: VoicePlayback
-  - hash:
-      serializedVersion: 2
-      Hash: 69532fe5d70c45d8bc49c9ea816cb6cc
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: Dissonance
-    className: DissonanceComms
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: Dissonance.Demo
-    className: Logo
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: Dissonance.Audio.Capture
-    className: BasicMicrophoneCapture
-  - hash:
-      serializedVersion: 2
-      Hash: 3fdb6824d947de2038a56148cd6a5e1a
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: Dissonance.Demo
-    className: TriggerVisualizer
-  - hash:
-      serializedVersion: 2
-      Hash: fa3dee828bd27ded447e0fdc79b4320a
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: Dissonance.Config
-    className: ChatRoomSettings
-  - hash:
-      serializedVersion: 2
-      Hash: 371b831d416d0e5b9ad48ef7608b6f1d
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: Dissonance.Config
-    className: VoiceSettings
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: Dissonance.Demo
-    className: SpeakerIndicator
-  - hash:
-      serializedVersion: 2
-      Hash: 4860cc13f7537ba3fd010c32bb59e655
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: Dissonance.Demo
-    className: ToggleInvertMute
-  - hash:
-      serializedVersion: 2
-      Hash: 58ec2f0e5de3679a63cfe0fe6d6fc96d
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: Dissonance
-    className: VoiceReceiptTrigger
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: Dissonance.Audio.Playback
-    className: SamplePlaybackComponent
-  - hash:
-      serializedVersion: 2
-      Hash: 2d3d9987d3b628f4cceab92fc062a82a
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: Dissonance.Config
-    className: DebugSettings
-  - hash:
-      serializedVersion: 2
-      Hash: d5c0acc8cad1b062bea3f2c3e0a2f11b
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: Dissonance.Demo
-    className: ChatInputController
-  - hash:
-      serializedVersion: 2
-      Hash: b942525e6a7088bd9755b40c55723704
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: Dissonance
-    className: VoiceBroadcastTrigger
-  - hash:
-      serializedVersion: 2
-      Hash: 224ee637b7a30c263fec4a5b2f85db84
-    assemblyName: Assembly-CSharp-firstpass.dll
-    namespaceName: Dissonance.Demo
-    className: ChatLogController
-  - hash:
-      serializedVersion: 2
-      Hash: 6fd2bb55b3ee5edb6040a1c5bccd0e07
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Dissonance.Integrations.MirrorIgnorance
-    className: MirrorIgnorancePlayer
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Dissonance.Integrations.MirrorIgnorance
-    className: MirrorIgnoranceCommsNetwork
-  - hash:
-      serializedVersion: 2
-      Hash: 6fd2bb55b3ee5edb6040a1c5bccd0e07
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: Dissonance.Integrations.MirrorIgnorance.Demo
-    className: MirrorIgnorancePlayerController
   platform: 5
   scenePathNames:
   - Assets/Dissonance/Integrations/MirrorIgnorance/Demo/MirrorIgnorance Demo.unity

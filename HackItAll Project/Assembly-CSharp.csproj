@@ -55,10 +55,10 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Dissonance\Core\Jetbrains.cs" />
     <Compile Include="Assets\Dissonance\Integrations\MirrorIgnorance\MirrorIgnorancePlayer.cs" />
     <Compile Include="Assets\Dissonance\Integrations\MirrorIgnorance\MirrorIgnoranceCommsNetwork.cs" />
     <Compile Include="Assets\Dissonance\Integrations\MirrorIgnorance\MirrorIgnoranceServer.cs" />
+    <Compile Include="Assets\Dissonance\Core\Jetbrains.cs" />
     <Compile Include="Assets\Dissonance\Integrations\MirrorIgnorance\Demo\MirrorIgnorancePlayerController.cs" />
     <Compile Include="Assets\Dissonance\Integrations\MirrorIgnorance\MirrorIgnoranceClient.cs" />
   </ItemGroup>
@@ -702,6 +702,12 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

@@ -5,6 +5,15 @@ namespace Dissonance.Integrations.MirrorIgnorance.Demo
 {
     public class MirrorIgnorancePlayerController : NetworkBehaviour
     {
+        Vector3 offset;
+        public float speedCoef, rotationCoef; 
+
+
+        public void Start()
+        {
+            offset = GameObject.Find("Main Camera").GetComponent<Camera>().transform.position - this.GetComponent<Transform>().position;
+        }
+
         private void Update()
         {
             if (!isLocalPlayer)
@@ -12,14 +21,30 @@ namespace Dissonance.Integrations.MirrorIgnorance.Demo
                 return;
             }
 
-            var controller = GetComponent<CharacterController>();
             
-            var rotation = Input.GetAxis("Horizontal") * Time.deltaTime * 150.0f;
-            var speed = Input.GetAxis("Vertical") * 3.0f;
+
+            var rotation = Input.GetAxis("Horizontal") * Time.deltaTime * 175;
+            var speed = Input.GetAxis("Vertical") * 6;
+
+            GameObject.Find("Main Camera").GetComponent<Camera>().transform.position = this.GetComponent<Transform>().position + offset;
+
+            CmdMove(rotation, speed);
+        }
+
+        [Command]
+        private void CmdMove(float rotation, float speed)
+        {
+            RpcMove(rotation, speed);
             
+        }
+
+
+        [ClientRpc]
+        private void RpcMove(float rotation, float speed)
+        {
             transform.Rotate(0, rotation, 0);
             var forward = transform.TransformDirection(Vector3.forward);
-            controller.SimpleMove(forward * speed);
+            GetComponent<CharacterController>().SimpleMove(forward * speed);
 
             if (transform.position.y < -3)
             {
@@ -27,5 +52,6 @@ namespace Dissonance.Integrations.MirrorIgnorance.Demo
                 transform.rotation = Quaternion.identity;
             }
         }
+
     }
 }
