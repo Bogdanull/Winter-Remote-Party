@@ -8,10 +8,13 @@ namespace Dissonance.Integrations.MirrorIgnorance.Demo
         Vector3 offset;
         public float speedCoef, rotationCoef;
         string name;
+        float lastCount;
 
         public void Start()
         {
             offset = GameObject.Find("Main Camera").GetComponent<Camera>().transform.position - this.GetComponent<Transform>().position;
+            lastCount = Time.time;
+
         }
 
         private void Update()
@@ -19,6 +22,13 @@ namespace Dissonance.Integrations.MirrorIgnorance.Demo
             if (!isLocalPlayer)
             {
                 return;
+            }
+
+            if (Time.time - lastCount > 5000)
+            {
+                lastCount = Time.time;
+                CmdTransform(transform);
+                Debug.Log("Sync");
             }
 
             var rotation = Input.GetAxis("Horizontal") * Time.deltaTime * 175;
@@ -30,11 +40,23 @@ namespace Dissonance.Integrations.MirrorIgnorance.Demo
         }
 
         [Command]
+        private void CmdTransform(Transform trans)
+        {
+            RpcTransform(trans);
+        }
+
+        [ClientRpc]
+        private void RpcTransform(Transform trans)
+        {
+            transform.position = trans.position;
+            transform.rotation = trans.rotation;
+        }
+
+        [Command]
         private void CmdMove(float rotation, float speed)
         {
             RpcMove(rotation, speed);
         }
-
 
         [ClientRpc]
         private void RpcMove(float rotation, float speed)

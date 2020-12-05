@@ -18,6 +18,7 @@ ScriptsOnlyBuild:
     - Dissonance.Integrations.MirrorIgnorance.Demo.MirrorIgnorancePlayerController
     - Dissonance.Integrations.MirrorIgnorance.MirrorIgnoranceCommsNetwork
     - Dissonance.Integrations.MirrorIgnorance.MirrorIgnorancePlayer
+    - NameSet
     Cinemachine.dll:
     - Cinemachine.CinemachineBrain
     Mirror.Components.dll:
@@ -92,15 +93,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11868}
     - Class: 114
-      Script: {instanceID: 11900}
+      Script: {instanceID: 11898}
     - Class: 114
-      Script: {instanceID: 11980}
+      Script: {instanceID: 11978}
     - Class: 114
-      Script: {instanceID: 12036}
+      Script: {instanceID: 12034}
     - Class: 114
-      Script: {instanceID: 12300}
+      Script: {instanceID: 12298}
     - Class: 114
-      Script: {instanceID: 12328}
+      Script: {instanceID: 12326}
     - Class: 114
       Script: {instanceID: 12404}
     - Class: 114
@@ -108,25 +109,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13632}
     - Class: 114
-      Script: {instanceID: 13694}
+      Script: {instanceID: 13660}
     - Class: 114
-      Script: {instanceID: 13772}
+      Script: {instanceID: 13696}
     - Class: 114
-      Script: {instanceID: 14326}
+      Script: {instanceID: 13774}
     - Class: 114
-      Script: {instanceID: 15248}
+      Script: {instanceID: 14328}
     - Class: 114
       Script: {instanceID: 15250}
     - Class: 114
-      Script: {instanceID: 15374}
+      Script: {instanceID: 15252}
     - Class: 114
-      Script: {instanceID: 15636}
+      Script: {instanceID: 15376}
     - Class: 114
-      Script: {instanceID: 15752}
+      Script: {instanceID: 15638}
     - Class: 114
-      Script: {instanceID: 15980}
+      Script: {instanceID: 15754}
     - Class: 114
-      Script: {instanceID: 16320}
+      Script: {instanceID: 15982}
+    - Class: 114
+      Script: {instanceID: 16322}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -187,9 +190,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11868}
     - Class: 114
-      Script: {instanceID: 11904}
+      Script: {instanceID: 11902}
     - Class: 114
-      Script: {instanceID: 12198}
+      Script: {instanceID: 12196}
+    - Class: 114
+      Script: {instanceID: 12326}
     - Class: 114
       Script: {instanceID: 12328}
     - Class: 114
@@ -201,25 +206,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13330}
     - Class: 114
-      Script: {instanceID: 13924}
+      Script: {instanceID: 13926}
     - Class: 114
-      Script: {instanceID: 14014}
+      Script: {instanceID: 14016}
     - Class: 114
-      Script: {instanceID: 14046}
+      Script: {instanceID: 14048}
     - Class: 114
-      Script: {instanceID: 15248}
+      Script: {instanceID: 15250}
     - Class: 114
-      Script: {instanceID: 15374}
+      Script: {instanceID: 15376}
     - Class: 114
-      Script: {instanceID: 15524}
+      Script: {instanceID: 15526}
     - Class: 114
-      Script: {instanceID: 15752}
+      Script: {instanceID: 15754}
     - Class: 114
-      Script: {instanceID: 16400}
+      Script: {instanceID: 16402}
     - Class: 114
-      Script: {instanceID: 16432}
-    - Class: 114
-      Script: {instanceID: 22440}
+      Script: {instanceID: 16434}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -407,6 +410,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 75d67b17f3a2111f63f48205a306cfb9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CreateNames
   - hash:
       serializedVersion: 2
       Hash: fd8b23ad3c9e81bc85b197495bc510ac
@@ -803,6 +812,12 @@ ScriptsOnlyBuild:
     assemblyName: Mirror.Components.dll
     namespaceName: Mirror.Experimental
     className: NetworkRigidbody
+  - hash:
+      serializedVersion: 2
+      Hash: adb93d8e8fd68a65d02c601c5adca1c7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: NameSet
   - hash:
       serializedVersion: 2
       Hash: 371b831d416d0e5b9ad48ef7608b6f1d
@@ -1601,12 +1616,6 @@ ScriptsOnlyBuild:
     assemblyName: Mirror.dll
     namespaceName: kcp2k
     className: KcpTransport
-  - hash:
-      serializedVersion: 2
-      Hash: 75d67b17f3a2111f63f48205a306cfb9
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CreateNames
   platform: 5
   scenePathNames:
   - Assets/Dissonance/Integrations/MirrorIgnorance/Demo/MirrorIgnorance Demo.unity

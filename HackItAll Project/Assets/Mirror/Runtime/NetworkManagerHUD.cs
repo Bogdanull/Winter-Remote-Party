@@ -75,6 +75,7 @@ namespace Mirror
             if (!NetworkClient.active)
             {
                 // Server + Client
+
                 if (Application.platform != RuntimePlatform.WebGLPlayer)
                 {
                     if (GUILayout.Button("Host (Server + Client)"))
@@ -102,6 +103,7 @@ namespace Mirror
                 {
                     if (GUILayout.Button("Server Only")) manager.StartServer();
                 }
+
             }
             else
             {
