@@ -6,8 +6,8 @@ namespace Dissonance.Integrations.MirrorIgnorance.Demo
     public class MirrorIgnorancePlayerController : NetworkBehaviour
     {
         Vector3 offset;
-        public float speedCoef, rotationCoef; 
-
+        public float speedCoef, rotationCoef;
+        string name;
 
         public void Start()
         {
@@ -21,8 +21,6 @@ namespace Dissonance.Integrations.MirrorIgnorance.Demo
                 return;
             }
 
-            
-
             var rotation = Input.GetAxis("Horizontal") * Time.deltaTime * 175;
             var speed = Input.GetAxis("Vertical") * 6;
 
@@ -35,7 +33,6 @@ namespace Dissonance.Integrations.MirrorIgnorance.Demo
         private void CmdMove(float rotation, float speed)
         {
             RpcMove(rotation, speed);
-            
         }
 
 
