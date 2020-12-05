@@ -314,7 +314,7 @@ MonoBehaviour:
   runInBackground: 1
   autoStartServerBuild: 1
   showDebugMessages: 0
-  serverTickRate: 30
+  serverTickRate: 60
   offlineScene: Assets/Dissonance/Integrations/MirrorIgnorance/Demo/MirrorIgnorance
     Demo.unity
   onlineScene: Assets/Dissonance/Integrations/MirrorIgnorance/Demo/MirrorIgnorance

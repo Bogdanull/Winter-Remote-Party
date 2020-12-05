@@ -25,6 +25,7 @@ public class CreateNames : MonoBehaviour
         foreach (GameObject player in GameObject.FindGameObjectsWithTag("player"))
         {
             texts[index].transform.position = player.transform.position + new Vector3(0, 4, 0);
+            texts[index].text = player.GetComponent<NameSet>().m_name;
             index++;
             if (index > 20)
             {
