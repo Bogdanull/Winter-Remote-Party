@@ -27,7 +27,12 @@ public class CreateNames : MonoBehaviour
         {
             texts[index].transform.position = player.transform.position + new Vector3(0, 4, 0);
             texts[index].text = player.GetComponent<Dissonance.Integrations.MirrorIgnorance.Demo.MirrorIgnorancePlayerController>().namePlayer;
+            texts[index].transform.LookAt(Camera.main.transform);
+            texts[index].transform.Rotate(Vector3.up - new Vector3(0, 180, 0));
+
+            //texts[index].transform.rotation = Quaternion.LookRotation(Camera.main.transform.forward);
             index++;
+     
             if (index > 20)
             {
                 break;
