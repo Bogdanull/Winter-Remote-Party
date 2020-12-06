@@ -39,15 +39,11 @@ namespace Dissonance.Integrations.MirrorIgnorance.Demo
             if (!isLocalPlayer)
             {
                 DestroyImmediate(inputGO);
-            }
-            if (!isLocalPlayer)
-            {
-                DestroyImmediate(meshRendererGO);
-            }
-            if (!isLocalPlayer)
-            {
                 DestroyImmediate(spriteRendererGO);
+                DestroyImmediate(meshRendererGO);
+                DestroyImmediate(GetComponent<AudioListener>());
             }
+            
         }
 
         private void Update()
