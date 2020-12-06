@@ -95,7 +95,7 @@ namespace Dissonance.Integrations.MirrorIgnorance.Demo
             }
 
             var rotation = Input.GetAxis("Horizontal") * Time.deltaTime * 175;
-            var speed = Input.GetAxis("Vertical") * 1000 * Time.deltaTime;
+            var speed = Input.GetAxis("Vertical") * 300 * Time.deltaTime;
 
             CmdMove(rotation, speed);
         }

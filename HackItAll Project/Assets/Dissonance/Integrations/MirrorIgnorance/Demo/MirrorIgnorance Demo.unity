@@ -314,13 +314,13 @@ MonoBehaviour:
   runInBackground: 1
   autoStartServerBuild: 1
   showDebugMessages: 0
-  serverTickRate: 30
+  serverTickRate: 60
   offlineScene: Assets/Dissonance/Integrations/MirrorIgnorance/Demo/MirrorIgnorance
     Demo.unity
   onlineScene: Assets/Dissonance/Integrations/MirrorIgnorance/Demo/MirrorIgnorance
     Game World.unity
   transport: {fileID: 1741379439}
-  networkAddress: localhost
+  networkAddress: 86.124.197.3
   maxConnections: 4
   disconnectInactiveConnections: 0
   disconnectInactiveTimeout: 60
