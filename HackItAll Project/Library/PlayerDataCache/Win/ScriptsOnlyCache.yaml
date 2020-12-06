@@ -33,8 +33,6 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
-    - UnityEditor.Tilemaps.GridPaletteBrushes
-    - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.TileDragAndDropManager
     Unity.Rider.Editor.dll:
@@ -117,31 +115,31 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13142}
     - Class: 114
-      Script: {instanceID: 13316}
+      Script: {instanceID: 13318}
     - Class: 114
-      Script: {instanceID: 13638}
+      Script: {instanceID: 13640}
     - Class: 114
-      Script: {instanceID: 13702}
+      Script: {instanceID: 13704}
     - Class: 114
-      Script: {instanceID: 13780}
+      Script: {instanceID: 13782}
     - Class: 114
-      Script: {instanceID: 14334}
-    - Class: 114
-      Script: {instanceID: 15256}
+      Script: {instanceID: 14336}
     - Class: 114
       Script: {instanceID: 15258}
     - Class: 114
-      Script: {instanceID: 15382}
+      Script: {instanceID: 15260}
     - Class: 114
-      Script: {instanceID: 15532}
+      Script: {instanceID: 15384}
     - Class: 114
-      Script: {instanceID: 15644}
+      Script: {instanceID: 15534}
     - Class: 114
-      Script: {instanceID: 15760}
+      Script: {instanceID: 15646}
     - Class: 114
-      Script: {instanceID: 15988}
+      Script: {instanceID: 15762}
     - Class: 114
-      Script: {instanceID: 16328}
+      Script: {instanceID: 15990}
+    - Class: 114
+      Script: {instanceID: 16330}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -224,27 +222,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13142}
     - Class: 114
-      Script: {instanceID: 13336}
+      Script: {instanceID: 13182}
     - Class: 114
-      Script: {instanceID: 13932}
+      Script: {instanceID: 13338}
     - Class: 114
-      Script: {instanceID: 14022}
+      Script: {instanceID: 13934}
     - Class: 114
-      Script: {instanceID: 14054}
+      Script: {instanceID: 14024}
     - Class: 114
-      Script: {instanceID: 15256}
+      Script: {instanceID: 14056}
     - Class: 114
-      Script: {instanceID: 15382}
+      Script: {instanceID: 15258}
     - Class: 114
-      Script: {instanceID: 15532}
+      Script: {instanceID: 15384}
     - Class: 114
-      Script: {instanceID: 15760}
+      Script: {instanceID: 15534}
     - Class: 114
-      Script: {instanceID: 16408}
+      Script: {instanceID: 15762}
     - Class: 114
-      Script: {instanceID: 16440}
+      Script: {instanceID: 16410}
     - Class: 114
-      Script: {instanceID: 46720}
+      Script: {instanceID: 16442}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -718,6 +716,12 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
     className: NoiseSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ActivatePrompt
   - hash:
       serializedVersion: 2
       Hash: 09a332418522e82d937585e2a061b3cf
@@ -1642,12 +1646,6 @@ ScriptsOnlyBuild:
     assemblyName: Mirror.dll
     namespaceName: kcp2k
     className: KcpTransport
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ActivatePrompt
   platform: 5
   scenePathNames:
   - Assets/Dissonance/Integrations/MirrorIgnorance/Demo/MirrorIgnorance Demo.unity
