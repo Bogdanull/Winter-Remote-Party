@@ -1,3 +1,5 @@
 # HackITall-Deutsche-Bank
 HackITall Project
-Baia mică 
+
+Unity Project for 24h hackaton,
+
