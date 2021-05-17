@@ -1,17 +1,20 @@
 # HackITall-Deutsche-Bank
 HackITall Project
 
-Main aspects of the project :
 
-**Voice chat application, with regards to your proximity
-*(Talk to your colleagues during meetings, and take private issues to another room!)
+# Voice chat application, with regards to your proximity
+Talk to your colleagues during meetings, and take private issues to another room!
 
-**Special zones where you can hear everybody, listen to music together or join links
+# Special zones where you can hear everybody, listen to music together or join links
+Interact with your friends and the enviroment!
 
-**Customisable rooms and characters, show off your style in diverse enviroments! 
+# Customisable rooms and characters
+Show off your style in diverse enviroments! 
 
-**3D Camera controls using mouse and movement from keyboard. Mute yourself trough on-screen buttons.
+# 3D Camera controls using mouse and movement from keyboard. Mute yourself trough on-screen buttons.
+Coordinate processing of the camera location based on mouse movements.
 
+# Context
 
 Unity Project for 24h hackaton, as a solution to 
 work from home problems. We address communication issues 
