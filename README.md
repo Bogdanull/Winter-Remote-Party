@@ -11,7 +11,7 @@ Interact with your friends and the enviroment!
 ### Customisable rooms and characters
 Show off your style in diverse enviroments! 
 
-# 3D Camera controls using mouse and movement from keyboard. Mute yourself trough on-screen buttons.
+### 3D Camera controls using mouse and movement from keyboard. Mute yourself trough on-screen buttons.
 Coordinate processing of the camera location based on mouse movements.
 
 ### Context
